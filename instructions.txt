@@ -1,0 +1,9 @@
+| 命令   | 功能介绍                             | 常用命令例子            |
+|--------|--------------------------------------|-------------------------|
+| sinfo  | 显示系统资源使用情况                 | sinfo                   |
+| squeue | 显示作业状态                         | squeue                  |
+| srun   | 用于交互式作业提交                   | srun -N 1 -n 1 A.exe    |
+| sbatch | 用于批处理作业提交                   | sbatch -N 1 -n 1 job.sh |
+| salloc | 用于分配模式作业提交                 | salloc                  |
+| scancel| 用于取消已提交的作业                 | scancel JOBID           |
+| scontrol| 用于查询节点信息或正在运行的作业信息 | scontrol show job JOBID | 
